@@ -1,0 +1,102 @@
+
+
+@media (min-width: 1240px) {
+    .header-wrap{
+        width: 1450px;
+    }
+    .Add-guest-box{
+        width: 40%;
+    }
+    .Add-guest-wrap{
+        margin-left:40px;
+    }
+    .flex-search{
+        max-width: 1450px;
+        margin: 0px auto;
+    }
+    .flex-serach-box{
+        width: 40% ;
+    }
+    .User-form{
+        width: 80%;
+    }
+    .nav-mobile{
+        display:none;
+    }
+    .scheduled,.experience{
+        width: 70%;
+    }
+    .swiper-slide-modify{
+        display:none !important;
+    }
+    .inspiration-main.l-6{
+        flex: 0 0 25% ;
+        max-width: 25% ;
+    }
+    .inspiration-main-modify{
+        display: block !important;
+    }
+    .header-mobile{
+        display: none;
+    }
+}
+/* -----------------Tablet pro---------------------------------- */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .header-wrap{
+        width: 984px;
+    }
+    .logo{
+        display: none;
+    }
+    .logo-2{
+        display: block;
+    }
+    .scheduled,.experience{
+        width: 800px;
+    }
+    .modal__inner-1{
+        top:15%;
+        left: 5%;
+        width: 90%;
+        height: 70vh;          
+    }
+    .modal__inner-2{
+        top:22%;
+        left: 22%;
+        width: 56%;
+        height: 56vh;  
+    }
+    .nav-mobile{
+        display:none;
+    }
+    .inspiration-header{
+        font-size:20px;
+    }
+    .inspiration-wrap{
+        height: 300px;
+    }
+    .inspiration-location{
+        font-size:25px;
+        padding:10px 15px;
+        line-height: 35px;
+        height: 70px;
+    }
+    .inspiration-distance{
+        font-size:25px;
+        padding: 20px;
+    }
+    .header-mobile{
+        display: none;
+    }
+    .swiper-wrapper {         
+        gap: 24px;      
+    }
+    .experiences-main{
+        height: 550px;         
+    }
+    .experiences-main h2{
+        font-size:30px;
+        line-height:30px;
+        margin-bottom: 20px;
+    }
+}
