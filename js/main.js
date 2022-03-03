@@ -875,5 +875,3 @@ footer_option_coin.onclick=function(){
 }
 
 
-
-

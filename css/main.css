@@ -112,7 +112,13 @@ html{
     justify-content:space-between;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     animation: modalShow 0.5s linear;
+    cursor: pointer;
 }
+
+.header-btn:hover {
+    box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 0px;
+}
+
 .header-btn span, .header-btn-moblie span{
     font-weight:bold;
     font-size:15px;
@@ -169,7 +175,7 @@ html{
     font-weight: 500;
 }
 .become-a-host:hover{
-    background-color:#ccc ;
+    background-color: #cccccc6b ;
 }
 .region-and-coin{
     color: white;
@@ -183,8 +189,8 @@ html{
     background-color:transparent;
     cursor: pointer;
 }
-.region-and-coin:hover{
-    background-color: #ccc;
+.region-and-coin:hover {
+    background-color: #cccccc6b;
 }
 .User{
     background-color: white;
@@ -193,8 +199,13 @@ html{
     border-radius: 35px;
     display: flex;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid #dddddd;
 }
+
+.User:hover {
+    box-shadow: 0px 5px 5px -4px #888888
+}
+
 .user-icon:last-child{
     margin-left: 12px;
     font-size:28px;
@@ -223,7 +234,7 @@ html{
     font-weight: bold;
 }
 .User-form-item:nth-child(2){
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 .User-form-item:hover{
     background-color: #ccc;
@@ -325,7 +336,7 @@ html{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .flex-serach-box h4{
-    font-size:20px;
+    font-size: 12px;
 }
 .flex-serach-btn{
     width: 100%;
@@ -338,8 +349,15 @@ html{
     margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content:space-between
+    justify-content:space-between;
+    text-decoration: none;
 }
+
+.flex-serach-btn:hover {
+    /* background-color: red; */
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+}
+
 .flex-serach-btn span{
     font-size:18px;
     color: #880193;
@@ -349,6 +367,7 @@ html{
     font-size:18px;
     color: #880193;
 }
+
 .Check-in{
     position: relative;
     padding: 16px 0;
@@ -363,7 +382,7 @@ html{
     display: block;
     margin-top:6px;
     position: relative;
-    color: rgb(131, 130, 130);
+    color: #717171;
 }
 .Add-guest{
     padding: 16px 10px;
@@ -485,7 +504,7 @@ html{
     justify-content: space-between;
     padding-top: 15px;
     padding-bottom:20px;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ebebeb;
 }
 .Guset-info-wrap:nth-child(4){
     border-bottom: none;
@@ -542,6 +561,7 @@ html{
 }
 .Add-guest-text-wrap{
     width: 140px;
+    padding-top: 2px;
 }
 .adult,.baby,.child,.add-pet{
     font-size:12px;
@@ -803,7 +823,7 @@ html{
 .modal-login-regist__header{
     text-align: center;
     padding-bottom: 20px ;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
     font-size: 18px;
 }
 .modal-login-regist__body{
@@ -819,6 +839,7 @@ html{
 }
 .invalid .form-message{
     color: red !important;
+    font-size: 14px;
 }
 select{
     margin: 0;      
@@ -831,8 +852,9 @@ select{
 }
 .regist-nation{
     position:relative;
-    border: 2px solid #ccc;
-    border-radius:10px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     overflow: hidden;
 }
 .regist-nation-wrap{
@@ -861,9 +883,10 @@ select{
 }
 .regist-phoneNumber-form{
     position:relative;
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
     height: 72px;
-    border-radius:10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .regist-phoneNumber-form-active{
     border: 2px solid black;
@@ -896,8 +919,8 @@ select{
     overflow: hidden;
     padding: 12px 40px;
 }
-.regist-policy{
-    margin-top:35px;
+.regist-policy {
+    margin-top: 32px;
     font-size: 13px;
 }
 .policy-link{
@@ -928,6 +951,7 @@ select{
     position: relative;
     overflow: hidden;
     font-size: 14px;
+    color: #484848;
 }
 .Daiphancach::after{
     content: "";
@@ -962,31 +986,33 @@ select{
 .login-btn:hover{
     border-color: black;
 }
+
 .login-btn span{
     flex: 1;
     text-align:center;
     font-size:16px;
     font-weight:bold;
+    color: #484848;
 }
+
+.login-btn__icon {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
 .icon-fb{
-    font-size:25px;
     color:rgb(79, 79, 238);
-    margin-left:10px;
 }
 .icon-gg{
-    font-size:25px;
+    height: 25px;
+    width: 25px;
     color:black;
-    margin-left:10px;
 }
 .icon-apple{
-    font-size:25px;
     color:black;
-    margin-left:10px;
 }
 .icon-email{
-    font-size:25px;
-    color:red;
-    margin-left:10px;
+    color: #ccc;
 }
 .Need-help{
     display:flex;
@@ -1004,7 +1030,7 @@ select{
 .inspiration-header{
     font-size:25px;
     color:black;
-    padding: 120px 0 70px 0;
+    padding: 100px 0 70px 0;
     font-weight:lighter;
 }
 .inspiration-wrap{
@@ -1055,10 +1081,10 @@ select{
 /* .experiences{
     height: 700px;
 } */
-.experiences-header{
-    font-size:25px;
+.experiences-header {
+    font-size: 25px;
     color:black;
-    padding: 80px 0 50px 0;
+    padding: 100px 0 20px 0;
     line-height:25px;
 }
 .experiences-content{
@@ -1094,14 +1120,18 @@ select{
     cursor: pointer;
 }
 .experiences-main-big h2{
-    font-size:80px;
-    line-height:80px;
+    font-size: 95px;
+    line-height: 100px;
     width: 60%;
 }
 
 .experiences-main-big button{
     padding: 20px 40px;
     margin-top:160px;
+}
+
+.experiences-main button:hover{
+    background-color: #ebebeb;
 }
 /* ----------------------------------Footer---------------------------------------- */
 footer{
@@ -1116,12 +1146,14 @@ footer{
 }
 .footer-list {
     list-style: none;
+    font-size: 14px;
 }
 .footer-item{
     padding:8px 0;
 }
 .footer-list-header{
     font-weight: bold;
+    padding-bottom: 8px;
     text-decoration: none !important;
 }
 .footer-item:hover{
