@@ -919,3 +919,181 @@ select{
     margin-top:14px;
     font-size: 16px;
 }
+.Daiphancach{
+    margin-top:20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+}
+.Daiphancach::after{
+    content: "";
+    position:absolute;
+    top:8px;
+    left: 0;
+    width: 45%;
+    height: 1px;
+    background-color:#ccc;
+}
+.Daiphancach::before{
+    content: "";
+    position:absolute;
+    top:8px;
+    right: 0;
+    width: 45%;
+    height: 1px;
+    background-color:#ccc;
+}
+.login-btn{
+    margin-top:12px;
+    padding: 14px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: transparent;
+    outline:none;
+    border: 2px solid #ccc;
+}
+.login-btn:hover{
+    border-color: black;
+}
+.login-btn span{
+    flex: 1;
+    text-align:center;
+    font-size:16px;
+    font-weight:bold;
+}
+.icon-fb{
+    font-size:25px;
+    color:rgb(79, 79, 238);
+    margin-left:10px;
+}
+.icon-gg{
+    font-size:25px;
+    color:black;
+    margin-left:10px;
+}
+.icon-apple{
+    font-size:25px;
+    color:black;
+    margin-left:10px;
+}
+.icon-email{
+    font-size:25px;
+    color:red;
+    margin-left:10px;
+}
+.Need-help{
+    display:flex;
+    justify-content:center;
+    color:black;
+    margin-top:30px;
+    font-size: 16px;
+}
+/* -----------------------------------Cam hung--------------------------------- */
+.body-container{
+    background-color:white;
+    color:white;
+    height: 100%;
+}
+.inspiration-header{
+    font-size:25px;
+    color:black;
+    padding: 120px 0 70px 0;
+    font-weight:lighter;
+}
+.inspiration-wrap{
+    height: 450px;
+    display: block;
+    text-decoration: none;
+    color: currentColor;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.inspiration-main{
+    height: 100%;
+    padding: 0 30px;
+}
+.inspiration-main img{
+    width: 100%;
+    height: 50%;
+}
+.inspiration-location{
+    font-size:35px;
+    padding:30px 15px;
+    line-height: 35px;
+    height: 120px;
+}
+.inspiration-distance{
+    font-size:25px;
+    padding: 15px;
+}
+  .swiper-wrapper {
+      display: flex;
+      gap: 12px;
+      justify-content: space-between;
+  }
+  .inspiration-main-modify {
+      display:block;
+  }
+  .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 6px;
+    left: auto;
+    top: 130px !important;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: auto !important;
+    right: 80px !important;
+    top: 130px !important;
+}
+/* ---------------------------------Experience--------------------------------- */
+/* .experiences{
+    height: 700px;
+} */
+.experiences-header{
+    font-size:25px;
+    color:black;
+    padding: 80px 0 50px 0;
+    line-height:25px;
+}
+.experiences-content{
+    height: 100%;
+}
+.experiences-main{
+    padding: 52px 30px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 700px;
+    margin-top: 40px;
+}
+.experiences-main h2{
+    font-size:50px;
+    line-height:50px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+.experiences-main button{
+    padding: 20px 40px;
+    outline: none;
+    border: none;
+    background-color:white;
+    border-radius: 10px;
+    font-size:18px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.experiences-main-big h2{
+    font-size:80px;
+    line-height:80px;
+    width: 60%;
+}
+
+.experiences-main-big button{
+    padding: 20px 40px;
+    margin-top:160px;
+}
