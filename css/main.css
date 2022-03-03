@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Licorice&family=Poppins:ital,wght@0,200;0,300;1,200&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
 
+
 :root{
     --white-color: white;
     --black-color: black;
@@ -15,8 +16,10 @@ html{
     color:white;
     font-size: 62.5% ;
     line-height: 1.6rem;
-    font-family: 'Work Sans', sans-serif;
-   scroll-behavior: smooth;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'PoppinsVN', sans-serif; */
+    scroll-behavior: smooth;
 }
 
 .sticky {
@@ -1062,29 +1065,32 @@ select{
     height: 100%;
 }
 .experiences-main{
-    padding: 52px 30px;
+    /* padding: 52px 30px; */
+    padding: 85px 80px;
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
-    border-radius: 20px;
+    border-radius: 15px;
     height: 700px;
     margin-top: 40px;
 }
 .experiences-main h2{
-    font-size:50px;
-    line-height:50px;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 55px;
     margin-bottom: 20px;
-    width: 80%;
+    width: 65%;
 }
 .experiences-main button{
     padding: 20px 40px;
+    margin-top: 5px;
     outline: none;
     border: none;
     background-color:white;
     border-radius: 10px;
     font-size:18px;
-    font-weight: 550;
+    font-weight: 600;
     cursor: pointer;
 }
 .experiences-main-big h2{
@@ -1105,9 +1111,8 @@ footer{
     font-size:17px;
 }
 .footer-list-wrap {
-    padding:15px 0 60px 0;
+    padding: 48px 0px;
     line-height:24px;
-    border-bottom: 2px solid #ccc;
 }
 .footer-list {
     list-style: none;
@@ -1131,6 +1136,7 @@ footer{
     align-items: center;
     justify-content:space-between;
     padding: 30px 0;
+    border-top: 1px solid #ccc;
 }
 .footer-policy-wrap{
     display:flex;
@@ -1164,12 +1170,20 @@ footer{
     gap: 26px;
 }
 .footer-option-item{
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
     font-weight: 22px;
 }
+
+.footer-option-item:hover {
+    text-decoration: underline;
+}
+
 .footer-option-icon{
     font-size:22px;
+    color: #000;
+    text-decoration: none;
+    
 }
 /* ----------------------------------------Favor------------------------------------ */
 .favor-mobile-wrap{
