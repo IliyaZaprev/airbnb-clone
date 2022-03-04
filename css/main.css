@@ -1101,12 +1101,12 @@ select{
     height: 700px;
     margin-top: 40px;
 }
-.experiences-main h2{
-    font-size: 50px;
+.experiences-main h2 {
+    font-size: 53px;
     font-weight: 500;
-    line-height: 55px;
+    line-height: 60px;
     margin-bottom: 20px;
-    width: 65%;
+    width: 85%;
 }
 .experiences-main button{
     padding: 20px 40px;
@@ -1160,7 +1160,7 @@ footer{
     text-decoration: underline;
 }
 .footer-item a{
-    color:#525C67;
+    color: #222222db;
     text-decoration: none;
 }
 .footer-option-wrap{
