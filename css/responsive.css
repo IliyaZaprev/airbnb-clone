@@ -239,6 +239,10 @@
     .footer-policy-wrap{
         flex-direction: column;
     }
+
+    .flex-search-content p{
+        font-size: 36px;
+    }
 }
 /* ----------------------Small-tablet-------------------------------------------------- */
 @media (min-width: 421px) and (max-width: 739px) {
@@ -258,12 +262,13 @@
         padding: 14px 0;
     }
     .flex-search-content{
-        font-size:25px;
+        font-size: 25px;
         font-weight: bold;
         gap: 15px;
     }
     .flex-search-content p{
         height: 40px;
+        font-size: 28px;
         line-height: 40px;
     }
     .modal{
@@ -384,14 +389,19 @@
         padding: 14px 0;
     }
     .flex-search-content{
-        font-size:25px;
+        font-size: 28px;
         font-weight: bold;
         gap: 15px;
     }
     .flex-search-content p{
         height: 40px;
-        line-height: 40px;
+        line-height: 36px;
     }
+
+    .flex-search-content button {
+        margin-top: 36px
+    }
+
     .modal{
         height: 100%;
         animation: none;
@@ -501,10 +511,14 @@
     }
     .experiences-main button{
         padding: 16px 20px;
-        /* margin-top: 180px; */
         margin-top: inherit;
         margin-left: 12px;
     }
+
+    .experiences-main-big button{
+        margin-top: 224px;
+    }
+
     .experiences-main-big h2{
         font-size: 43px;
         line-height: 45px;
@@ -547,9 +561,9 @@
     .modal-login-regist__header h2 {
         font-size: 16px;
     }
-
+    /* button favor */
     .favor-mobile-header button {
-        background-image: radial-gradient(circle at center center, rgb(255, 56, 92) 0%, rgb(230 70 83) 27.5%, rgb(227, 28, 95) 40%, rgb(215, 4, 102) 57.5%, rgb(189, 30, 89) 75%, rgb(189, 30, 89) 100%);
+        background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%) !important;
         border: none;
         padding: 12px 25px;
         

@@ -17,8 +17,9 @@ html{
     font-size: 62.5% ;
     line-height: 1.6rem;
     /* font-family: 'Work Sans', sans-serif; */
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     /* font-family: 'PoppinsVN', sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue", sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -471,7 +472,7 @@ html{
 }
 .flex-search-content{
     margin: 0 auto;
-    padding: 80px 0;
+    /* padding: 80px 0; */
     height: 600px;
     width: 80%;
     font-size:50px;
@@ -483,14 +484,16 @@ html{
     font-weight: bold;
     text-align: center;
 }
-.flex-search-content p:first-child{
-    margin-bottom: 20px;
+
+.flex-search-content p{
+    font-weight: 500;
 }
+
 .flex-search-content button{
     padding: 14px 32px;
-    border-radius: 20px;
-    font-size: 18px;
-    color:#880193;
+    border-radius: 1000px;
+    font-size: 16px;
+    /* color:#880193; */
     font-weight: bold;
     outline:none;
     border: none;
@@ -498,6 +501,14 @@ html{
     margin-bottom: 80px;
     cursor: pointer;
 }
+
+.flex-search-content span{
+    -webkit-text-fill-color: transparent !important;
+    background: linear-gradient(90deg, #6F019C 0%, #C6017E 135.12%) !important;
+    -webkit-background-clip: text !important;
+}
+
+
 .Guset-info-wrap{
     display: flex;
     align-items: center;
@@ -1027,12 +1038,17 @@ select{
     color:white;
     height: 100%;
 }
-.inspiration-header{
-    font-size:25px;
+.inspiration-header {
+    font-size: 25px;
     color:black;
     padding: 100px 0 70px 0;
-    font-weight:lighter;
 }
+
+.inspiration-header h1{
+    font-weight: 500;
+
+}
+
 .inspiration-wrap{
     height: 450px;
     display: block;
@@ -1087,6 +1103,11 @@ select{
     padding: 100px 0 20px 0;
     line-height:25px;
 }
+
+.experiences-header h1{
+    font-weight: 500;
+}
+
 .experiences-content{
     height: 100%;
 }
@@ -1109,7 +1130,7 @@ select{
     width: 85%;
 }
 .experiences-main button{
-    padding: 20px 40px;
+    padding: 15px 24px;
     margin-top: 5px;
     outline: none;
     border: none;
@@ -1126,7 +1147,7 @@ select{
 }
 
 .experiences-main-big button{
-    padding: 20px 40px;
+    padding: 15px 24px;
     margin-top:160px;
 }
 
@@ -1182,10 +1203,12 @@ footer{
     list-style: none;
 }
 .footer-policy-item{
-    color:#525C67;
+    color: #222222DB;
+    font-size: 14px;
 }
 .footer-policy-item a{
-    color:#525C67;
+    color: #222222DB;
+    font-size: 14px;
     text-decoration: none;
 }
 .footer-policy-item:first-child{
@@ -1262,6 +1285,12 @@ footer{
     color:black;
     font-weight:550;
 }
+
+.favor-item:hover {
+    background-color: #ebebeb;
+    border-radius: 6px;
+}
+
 .favor-item-link img{
     width: 64px;
     height: 64px;
@@ -1270,6 +1299,7 @@ footer{
 }
 .favor-item-link span{
     font-size: 18px;
+    font-weight: 500;
 }
 .favor-list-wrap button{
     padding:12px 25px;
@@ -1278,4 +1308,5 @@ footer{
     border-radius: 5px;
     background-color:transparent;
     font-weight: bold;
+    color: #de4865;
 }
