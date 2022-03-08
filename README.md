@@ -1,5 +1,8 @@
 # Welcome to the AirBnB clone project!
-![image](http://assets.stickpng.com/images/580b57fcd9996e24bc43c513.png)
+![image](./img/demo/main.png) ![image](./img/demo/main1.png)
+![image](./img/demo/main2.png)
+![image](./img/demo/main3.png)
+![image](./img/demo/main4.png)
 
 ## Introduction
 The website that we are about to clone is [Airbnb](https://airbnb.com) website. This is a personal project for understanding how to use HTML, CSS and Javascript to build a website of your own.
