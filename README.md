@@ -1,7 +1,12 @@
 # Welcome to the AirBnB clone project!
-![image](./img/demo/main.png) ![image](./img/demo/main1.png)
+![image](./img/demo/main.png) 
+
+![image](./img/demo/main1.png)
+
 ![image](./img/demo/main2.png)
+
 ![image](./img/demo/main3.png)
+
 ![image](./img/demo/main4.png)
 
 ## Introduction
